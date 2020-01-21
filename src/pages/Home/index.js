@@ -8,7 +8,7 @@ export default function Home() {
     <ProductList>
       <li>
         <img
-          src="https://static.netshoes.com.br/produtos/tenis-nike-md-runner-2-masculino/26/D12-1407-026/D12-1407-026_zoom1.jpg"
+          src="https://imgcentauro-a.akamaihd.net/250x250/91588631A1/tenis-adidas-ultraboost-masculino-img.jpg"
           alt="tênis"
         />
         <strong>Nike XQDL</strong>
@@ -24,7 +24,7 @@ export default function Home() {
       </li>
       <li>
         <img
-          src="https://static.netshoes.com.br/produtos/tenis-nike-md-runner-2-masculino/26/D12-1407-026/D12-1407-026_zoom1.jpg"
+          src="https://imgcentauro-a.akamaihd.net/250x250/91588631A1/tenis-adidas-ultraboost-masculino-img.jpg"
           alt="tênis"
         />
         <strong>Nike XQDL</strong>
@@ -40,7 +40,7 @@ export default function Home() {
       </li>
       <li>
         <img
-          src="https://static.netshoes.com.br/produtos/tenis-nike-md-runner-2-masculino/26/D12-1407-026/D12-1407-026_zoom1.jpg"
+          src="https://imgcentauro-a.akamaihd.net/250x250/91588631A1/tenis-adidas-ultraboost-masculino-img.jpg"
           alt="tênis"
         />
         <strong>Nike XQDL</strong>
@@ -56,7 +56,7 @@ export default function Home() {
       </li>
       <li>
         <img
-          src="https://static.netshoes.com.br/produtos/tenis-nike-md-runner-2-masculino/26/D12-1407-026/D12-1407-026_zoom1.jpg"
+          src="https://imgcentauro-a.akamaihd.net/250x250/91588631A1/tenis-adidas-ultraboost-masculino-img.jpg"
           alt="tênis"
         />
         <strong>Nike XQDL</strong>
@@ -72,7 +72,7 @@ export default function Home() {
       </li>
       <li>
         <img
-          src="https://static.netshoes.com.br/produtos/tenis-nike-md-runner-2-masculino/26/D12-1407-026/D12-1407-026_zoom1.jpg"
+          src="https://imgcentauro-a.akamaihd.net/250x250/91588631A1/tenis-adidas-ultraboost-masculino-img.jpg"
           alt="tênis"
         />
         <strong>Nike XQDL</strong>
@@ -88,7 +88,7 @@ export default function Home() {
       </li>
       <li>
         <img
-          src="https://static.netshoes.com.br/produtos/tenis-nike-md-runner-2-masculino/26/D12-1407-026/D12-1407-026_zoom1.jpg"
+          src="https://imgcentauro-a.akamaihd.net/250x250/91588631A1/tenis-adidas-ultraboost-masculino-img.jpg"
           alt="tênis"
         />
         <strong>Nike XQDL</strong>

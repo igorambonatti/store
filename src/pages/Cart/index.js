@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 
 import {
@@ -5,7 +6,7 @@ import {
   MdAddCircleOutline,
   MdDelete,
 } from 'react-icons/md';
-import { Container, ProductTable } from './styles';
+import { Container, ProductTable, Total } from './styles';
 
 export default function Cart() {
   return (
@@ -13,16 +14,21 @@ export default function Cart() {
       <ProductTable>
         <thead>
           <tr>
-            <th>Produto</th>
-            <th>QTD</th>
+            <th />
+
+            <th>PRODUTO</th>
+            <h1>
+              <th>QTD</th>
+            </h1>
             <th>SUBTOTAL</th>
+            <th />
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>
               <img
-                src="https://static.netshoes.com.br/produtos/tenis-nike-md-runner-2-masculino/26/D12-1407-026/D12-1407-026_zoom1.jpg "
+                src="https://imgcentauro-a.akamaihd.net/250x250/91588631A1/tenis-adidas-ultraboost-masculino-img.jpg"
                 alt="item"
               />
             </td>
@@ -31,25 +37,34 @@ export default function Cart() {
               <strong>R$129,90</strong>
             </td>
             <td>
-              <button type="button">
-                <MdRemoveCircleOutline size={20} color="#7159c1" />
-              </button>
-              <input type="number" readOnly value={1} />
-              <button type="button">
-                <MdAddCircleOutline size={20} color="#7159c1" />
-              </button>
+              <div>
+                <button type="button">
+                  <MdRemoveCircleOutline size={20} color="#7159c1" />
+                </button>
+                <input type="number" readOnly value={1} />
+                <button type="button">
+                  <MdAddCircleOutline size={20} color="#7159c1" />
+                </button>
+              </div>
             </td>
             <td>
               <strong>R$258,80</strong>
             </td>
             <td>
               <button type="button">
-                <MdDelete />
+                <MdDelete size={20} color="#7159c1" />
               </button>
             </td>
           </tr>
         </tbody>
       </ProductTable>
+      <footer>
+        <button type="button">Finalizar pedido</button>
+        <Total>
+          <span>Total:</span>
+          <strong>R$1920,28</strong>
+        </Total>
+      </footer>
     </Container>
   );
 }
