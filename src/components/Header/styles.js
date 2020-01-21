@@ -6,7 +6,7 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0;
+  margin: 30px 30px;
 `;
 
 export const Cart = styled(Link)`
