@@ -16,7 +16,7 @@ export default createGlobalStyle`
   }
 
   html, body, #root {
-  height: 100%;
+  max-height: 100%;
   }
   body{
     background: #673AB7 url(${background}) no-repeat center top;
