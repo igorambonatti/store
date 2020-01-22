@@ -11,7 +11,7 @@ export const Container = styled.div`
     align-items: center;
   }
   button {
-    background: #7159c1;
+    background: #512da8;
     color: #fff;
     border: 0;
     border-radius: 4px;
@@ -28,28 +28,23 @@ export const ProductTable = styled.table`
     font-size: 18px;
   }
   width: 100%;
-  thead {
-    tr {
-      h1 {
-        th {
-          display: flex;
-          font-size: 18px;
-          margin-left: 12px;
-        }
-      }
-    }
-  }
   thead th {
     color: #999;
-    text-align: left;
+    text-align: center;
+
     padding: 12px;
   }
   img {
     height: 150px;
+    align-self: center;
   }
   tbody td {
+    text-align: center;
     padding: 12px;
     border-bottom: 1px solid #eee;
+    div {
+      justify-content: center;
+    }
   }
   strong {
     color: #333;
